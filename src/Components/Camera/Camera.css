@@ -1,0 +1,97 @@
+
+/* style the camera feed contianer*/
+.camera_feed_container {
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 200px;
+}
+/*style the camera feed*/
+.camera_feed {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.camera_containor{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 200px;
+}
+/*style the video fedd button*/
+.video_feed_button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(209, 209, 209);
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 20px/38px var(--unnamed-font-family-geomanist);
+    text-align: center;
+    font: normal normal normal 20px/38px Geomanist;
+    letter-spacing: 2.6px;
+    color: #2C2457;
+    margin-top: 5px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+    transition: all 0.1s ease-in-out;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+/*style the video fedd button hover*/
+.video_feed_button:hover {
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 20px/38px var(--unnamed-font-family-geomanist);
+    text-align: center;
+    font: normal normal normal 20px/38px Geomanist;
+    letter-spacing: 2.6px;
+    color: #ffffff;
+    background-color: #18bcdd;;
+    margin-top: 5px;
+}
+
+.stats_container{
+    width: 200px;
+    height: 200px;
+    padding: 40px;
+    padding-top: 0;
+    margin-left: 50px;
+    margin-top: -200px;
+    border-radius: 20px;
+    box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.05);
+    background-color: #ffffff;
+    overflow: hidden;
+}
+/* style stats_text_title */
+.stats_text_title {
+    align-items: center;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 20px/38px var(--unnamed-font-family-geomanist);
+    text-align: left;
+    font: normal normal normal 20px/38px Geomanist;
+    letter-spacing: 2.6px;
+    color: #2C2457;
+    padding: 20px;
+}
+
+/* style stats_text_value */
+.stats_text_value {
+    align-items: center;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 20px/38px var(--unnamed-font-family-geomanist);
+    text-align: center;
+    font: normal normal normal 20px/38px Geomanist;
+    letter-spacing: 2.6px;
+    color: #2C2457;
+} 

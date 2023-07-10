@@ -1,0 +1,85 @@
+/*style the coach home containor */
+.coach_home_container{
+    
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.05);
+    
+}
+/* style the coach practices */
+.coach_home_practices {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 90%;
+    grid-gap: 20px;
+    margin-bottom: 20px;
+}
+/* style the coach practices item */
+.coach_home_practice_name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(231, 231, 231);
+    color: #18bcdd;
+    color : #fff;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 20px/38px var(--unnamed-font-family-geomanist);
+    text-align: center;
+    font: normal normal normal 20px/38px Geomanist;
+    letter-spacing: 2.6px;
+    color: #2C2457;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.04);
+    padding: 20px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.coach_home_practice_name:hover {
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 20px/38px var(--unnamed-font-family-geomanist);
+    text-align: center;
+    font: normal normal normal 20px/38px Geomanist;
+    letter-spacing: 2.6px;
+    color: #ffffff;
+    background-color: #18bcdd;;
+    margin-top: 30px;
+}
+
+/*style page logo*/
+.page_logo {
+    height: 200px;
+    background-color: #18bcdd00;
+    border-radius: 200px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.04);
+    padding: 20px;
+    margin-left: 10%;
+    margin-top: 1%;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.page_logo_container{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.page_logo_text{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 20px/38px var(--unnamed-font-family-geomanist);
+    text-align: center;
+    font: normal normal normal 30px/38px Geomanist;
+    letter-spacing: 2.6px;
+    color: #2C2457;
+    margin-top: 30px;
+    padding: 20px;
+    transition: all 0.3s ease-in-out;
+}

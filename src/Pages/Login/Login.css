@@ -1,0 +1,107 @@
+.login_box{
+    width: 400px;
+    height: 100%;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 99px #0072FF1A;
+    border-radius: 15px;
+    opacity: 1;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    padding: 20px;
+}
+
+/* .login_box_logo{
+    font: var(--unnamed-font-style-normal) normal 800 54px/73px Monument Extended;
+    text-align: center;
+    font: var(--unnamed-font-style-normal) normal 800 43px/57px Monument;
+    font-size: 45px;
+    font-weight: 1000;
+    letter-spacing: 3.87px;
+    text-transform: uppercase;
+    color: #0072FF;
+    margin-top: 30px;
+    opacity: 1;
+    width:250px;
+} */
+
+.login_box_undertitle{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 13px/22px var(--unnamed-font-family-geomanist);
+    text-align: center;
+    font: normal normal normal 13px/22px Geomanist;
+    letter-spacing: 2.47px;
+    color: #96B8D5;
+    text-transform: uppercase;
+    margin: 10px 0px 50px 0px;
+    opacity: 1;
+}
+
+.login_box_input_label{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 20px/38px var(--unnamed-font-family-geomanist);
+    text-align: left;
+    font: normal normal normal 20px/38px Geomanist;
+    letter-spacing: 1.4px;
+    color: #2C2457;
+    flex: 1;
+    opacity: 1;
+}
+
+.login_box_input_container {
+    margin: 10px 0px 20px 0px;
+    width: 90%;
+    display: flex;
+    margin: auto;
+    margin-bottom: 20px;
+    justify-content: space-around;
+}
+
+.login_box_input {
+    border: none;
+    flex: 2;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+    border-bottom: 1px solid rgb(201, 201, 201);
+}
+
+.login_box_submit {
+    width: 350px;
+    height: 70px;
+    background: #18bcdd 0% 0% no-repeat padding-box;
+    border: none;
+    border-radius: 15px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 20px/38px var(--unnamed-font-family-geomanist);
+    color: var(--unnamed-color-ffffff);
+    text-align: center;
+    font: normal normal normal 20px/38px Geomanist;
+    letter-spacing: 2.6px;
+    color: #FFFFFF;
+    margin-left: 25px;
+    margin-top: 30px;
+    opacity: 1;
+}
+
+.login_box_submit:hover {
+    cursor: pointer;
+    background: #1d2fd6;
+}
+
+/* style the login-no acount */
+.login_box_no_account{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) 20px/38px var(--unnamed-font-family-geomanist);
+    text-align: center;
+    font: normal normal normal 20px/38px Geomanist;
+    letter-spacing: 2.6px;
+    color: #2C2457;
+    margin-top: 30px;
+    opacity: 1;
+}
+/*style the no acount button normal styling with underline*/
+.login_box_no_account_button{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.login_box_no_account_button:hover{
+    color: #1d2fd6;
+}

@@ -1,0 +1,41 @@
+/*Style the menu as a bar at the top of the page*/
+.menu {
+    margin: auto;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%px;
+    background-color: #18bcdd;
+    z-index: 1;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    list-style-type: none;
+    padding: 20px;
+}
+/* Style the menu items */
+.menu-item {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* Style the menu links */
+.menu-items a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* style the menu links on hover */
+.menu-items a:hover{
+    color: #616161;
+}
+
+
